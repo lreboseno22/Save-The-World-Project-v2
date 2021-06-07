@@ -1,0 +1,153 @@
+.start-page {
+	background-image: url("https://opalunpacked.com/wp-content/uploads/2017/02/Florida%E2%80%99s-Endangered-Coral-Reefs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;   
+   
+}
+
+.end-page {
+	display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;   
+    display: none;
+}
+
+.res-page {
+	display: none;
+}
+
+.title {
+	float: right;
+    margin: 55px;
+    padding: 20px;
+    text-align: center;    
+}
+
+.container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top:0;     
+    display: none;
+}
+
+.container2 {
+		display: none;
+}
+
+.text-container {
+	float: right;
+    margin: 20px;
+    padding: 20px;
+    width: 45%;
+}
+
+.text-container2 {
+	padding: 20px;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 10%;
+    width: 65%;
+}
+
+.button {
+	background-color: #c98a3c;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.25s;
+    font-size: 15px;            
+    color: black;
+    width: 25%;
+    height: 25px;
+}
+
+.button:hover {
+    background-color: #37c461;
+    cursor: pointer;
+	width: 35%;   
+}
+
+.contain {
+	display: flex;
+    flex-direction: column;    
+    text-align: center;
+}
+
+.flex {
+	display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.factor {
+	background-color: #c98a3c;
+    text-align: center;
+    cursor: pointer;    
+    width: 20%;    
+}
+
+.next {
+    margin: auto;    
+	cursor: pointer;
+}
+
+.pic {
+	width: 50%;
+    float: right;
+}
+
+.pic2 {
+	width: 60%;
+    margin-left: 25%;
+}
+
+.pic3 {
+	width: 60%;
+    height: 280px;
+    margin-left: 25%;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-weight: bold;
+	font-size: 50px;
+    color: black;
+}
+
+h2 {
+	font-size: 40px; 
+    text-align: center;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+ color: white;
+}
+
+.text{
+    color: white;
+    font-size: 25px;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
