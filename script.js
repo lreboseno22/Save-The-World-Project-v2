@@ -10,7 +10,7 @@ $(".btn1").css("display", "none");
 $(".btn1").click(function(){
 	$(".first").fadeOut();
     $(".second").fadeIn();
-    $(".two").css("background-color", "#297787");
+    $(".two").css("background-color", "#6e4138");
     $(".second").css("background-image", "url('https://s3-eu-west-1.amazonaws.com/yara-links/oyjb.jpg')");
 });
 
